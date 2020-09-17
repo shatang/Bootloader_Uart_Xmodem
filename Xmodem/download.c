@@ -86,7 +86,7 @@ void SerialDownload(uint8_t fu8_Channal)
 
 #define CHECK_VALID_CHAR        (' ')
 #define CHECK_CHAR_LIMIT_LEN    (15)
-#define TIME_DELAY_COUNT        (8000)
+#define TIME_DELAY_COUNT        (800)
 
 static uint8_t Uart_Channel = 0;
 /********************************************************************************
